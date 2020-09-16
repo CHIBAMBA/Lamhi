@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<meta charset="UTF-8">
+	<meta name="google-site-verification" content="iBmoDYq-zYpqG7MOvO2MiNZP2HY_ocggB4q3OTr4MdM" />
+
+	<link rel="stylesheet" href="css/linearicons.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+	<script src="https://kit.fontawesome.com/411d4749fe.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134905525-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-134905525-1');
+	</script>
+	<script>
+		$(window).load(function() {
+			console.log(window.location.pathname);
+			switch (window.location.pathname){
+				case '/nosotros.php':
+					maquinaTexto("¿Quiénes somos?", 1, 0);
+					break;
+				case '/servicios/consultores.php':
+					maquinaTexto("Consultoría Corporativa", 2, 0);
+					break;
+				case '/servicios/seguridad.php':
+					maquinaTexto("Seguridad Social Empresarial", 3, 0);
+					break;
+				case '/servicios/administracion.php':
+					maquinaTexto("Administración Financiera", 4, 0);
+					break;
+				case '/servicios/nomina.php':
+					maquinaTexto("Outsourcing de Nómina", 5, 0);
+					break;
+				case '/servicios/headhunter.php':
+					maquinaTexto("HeadHunter", 6, 0);
+					break;
+				case '/servicios/marketing.php':
+					maquinaTexto("Consultoría en TI | Marketing", 7, 0);
+					break;
+				case '/contacto.php':
+					maquinaTexto("Contacto", 8, 0);
+					break;
+				case '/aviso.php':
+					maquinaTexto("Aviso de privacidad", 9, 0);
+					break;
+				case '/terminos.php':
+					maquinaTexto("Términos y condiciones", 10, 0);
+					break;
+				case '/calendario.php':
+					maquinaTexto("Calendario de eventos", 12, 0);
+					break;
+				case '/servicios/juridico.php':
+					maquinaTexto("Corporativo Jurídico", 13, 0);
+					break;
+			}
+		});
+	</script>
+</head>
+<body>
+    <div class="social">
+		<ul>
+			<li><a href="https://www.facebook.com/GrupoLamhi/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			</li>
+			<li><a href="https://twitter.com/GrupoLamhi/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="https://www.instagram.com/grupo.lamhi/" target="_blank"><i class="fab fa-instagram"></i></a>
+			</li>
+			<li><a href="https://www.youtube.com/channel/UCyhMbDWtZG3YOXIiYVYfnxg" target="_blank"><i
+						class="fab fa-youtube"></i></a></li>
+		</ul>
+	</div>
+
+	<header id="header" id="home" style="color:white;font-weight:bold;opacity:0.92">
+		<div class="header-top">
+			<div class="container">
+				<div class="row align-items-center">
+					<div id="divLogo" class="col-lg-2 col-sm-6 col-12 header-top-left no-padding">
+						<a href="index.php"><img src="img/logo.png" style="height:80px;width:210px"
+								title="" /></a>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-12 header-top-center no-padding" style="text-align:center">
+						<div class="content" id="ani">
+							<div class="content__container">
+								<p class="content__container__text"></p>
+								<ul class="content__container__list">
+									<li class="content__container__list__item">¡Conócenos!</li>
+									<li class="content__container__list__item">¡Contáctanos!</li>
+									<li class="content__container__list__item">¡Suscríbete!</li>
+									<li class="content__container__list__item">¡Síguenos!</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-70 col-sm-6 col-12 header-top-right no-padding"
+						style="text-align:right;margin-left: -12%;">
+
+						<div class="row align-items-center justify-content-between d-flex" style="text-align:right">
+							<nav id="nav-menu-container">
+								<ul class="nav-menu" style="background:transparent;margin-left:35px">
+									<li><a style="background:transparent;color:white;" href="index.php"><span
+												style="font-weight:bold" class="lnr lnr-home"></span> Inicio</a></li>
+									<li><a style="background:transparent;color:white;"
+											href="nosotros.php"><span style="font-weight:bold" class="lnr lnr-users"></span>
+											Nosotros</a></li>
+									<li class="nav-item dropdown" style="background:transparent">
+										<a style="background:transparent;color:white" class="nav-link dropdown-toggle"
+											href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false">
+											<span style="font-weight:bold" class="lnr lnr-apartment"></span> Servicios
+										</a>
+										<div style="background:#033442;color:white;font-size:14px" class="dropdown-menu"
+											aria-labelledby="navbarDropdown">
+											<a id="btnS" class="dropdown-item" href="servicios/juridico.php">Corporativo jurídico</a><br>
+											<a id="btnS" class="dropdown-item" href="servicios/seguridad.php">Seguridad
+												Social Empresarial</a><br>
+											<a id="btnS" class="dropdown-item" href="servicios/administracion.php">Administración Financiera</a><br>
+											<a id="btnS" class="dropdown-item" href="servicios/nomina.php">Outsourcing
+												de Nómina</a><br>
+											<a id="btnS" class="dropdown-item" href="servicios/headhunter.php">HeadHunter</a><br>
+											<a id="btnS" class="dropdown-item" href="servicios/marketing.php">Consultoria en TI | Marketing</a>
+										</div>
+									</li>
+									<li><a style="background:transparent;color:white;" href="contacto.php"><span style="font-weight:bold"
+												class="lnr lnr-phone"></span> Contacto</a></li>
+									<!-- <li><a style="background:transparent;color:white;"
+											href="https://www.lamhi.com.mx/sistema_lamhi/index.html"
+											target="_blank"><span style="font-weight:bold"
+												class="lnr lnr-briefcase"></span> Clientes</a></li> -->
+									<li class="nav-item dropdown" style="background:transparent">
+										<a style="background:transparent;color:white" class="nav-link dropdown-toggle"
+											href="#" id="eventoDropdown" role="button" data-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false">
+											<span style="font-weight:bold" class="lnr lnr-calendar-full"></span> Eventos
+										</a>
+										<div style="background:#033442;color:white;font-size:14px" class="dropdown-menu"
+											aria-labelledby="eventoDropdown">
+											<a id="btnS" class="dropdown-item" href="http://meinteresa.lamhi.com.mx/"
+												target="_blank">Me interesa</a><br>
+											<a id="btnS" class="dropdown-item" href="calendario.php">Calendario</a><br>
+											<a id="btnS" class="dropdown-item"
+												href="http://asesorias.lamhi.com.mx/asesorias.php"
+												target="_blank">Asesorías</a>
+										</div>
+									</li>
+								</ul>
+							</nav><!-- #nav-menu-container -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- #header -->
+</body>
+</html>

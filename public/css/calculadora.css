@@ -1,0 +1,32 @@
+* {
+    font-family: Century Gothic;
+}
+body {
+    height: 100vh;
+    background: url(../img/AGRADECIMIENTO2.png) no-repeat center right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contenedor {
+    width: 50%;
+    /* margin-left: 3rem; */
+}
+article {
+    width: 400px !important;
+}
+.texto-color {
+    color: #17a2b8;
+    text-shadow: 1px 1px 1px #000000;
+}
+@media (max-width:900px) {
+    .contenedor {
+        margin-left: 0px;
+        width: 100% !important;
+    }
+    article {
+        background-color: #00000056;
+        border-radius: 15px;
+    }
+}

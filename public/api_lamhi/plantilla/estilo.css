@@ -1,0 +1,27 @@
+
+#container{
+  text-align: center;
+}
+
+#logo{
+    width: 320px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imUno{
+  width: 600px;
+  height: 550px;
+}
+
+#iconos{
+  width: 50px;
+  height: 50px;
+  display: inline;
+}
+
+#mensaje{
+  font-size: 20px;
+  font-weight: bold;
+}
